@@ -1,0 +1,166 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8" pages="2">
+  <diagram id="MCD" name="MCD">
+    <mxGraphModel dx="1678" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="MCD - API de relevés météo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=32;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="140" width="800" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="st" value="STATION" style="swimlane;startSize=44;horizontal=1;collapsible=0;fillColor=#dae8fc;swimlaneFillColor=#ffffff;strokeColor=#6c8ebf;fontStyle=1;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="110" y="210" width="300" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="st0" value="ID de la station" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;fontStyle=4;" parent="st" vertex="1">
+          <mxGeometry y="44" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="st1" value="Nom" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" parent="st" vertex="1">
+          <mxGeometry y="76" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="st2" value="Lieu" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" parent="st" vertex="1">
+          <mxGeometry y="108" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="st3" value="Altitude (m)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" parent="st" vertex="1">
+          <mxGeometry y="140" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="st4" value="Latitude" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" parent="st" vertex="1">
+          <mxGeometry y="172" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="st5" value="Longitude" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" parent="st" vertex="1">
+          <mxGeometry y="204" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="re" value="RELEVÉ" style="swimlane;startSize=44;horizontal=1;collapsible=0;fillColor=#dae8fc;swimlaneFillColor=#ffffff;strokeColor=#6c8ebf;fontStyle=1;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="730" y="210" width="300" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="re0" value="ID du relevé" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;fontStyle=4;" parent="re" vertex="1">
+          <mxGeometry y="44" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="re1" value="Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" parent="re" vertex="1">
+          <mxGeometry y="76" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="re2" value="Heure" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" parent="re" vertex="1">
+          <mxGeometry y="108" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="re3" value="Température (°C)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" parent="re" vertex="1">
+          <mxGeometry y="140" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="re4" value="Humidité (%)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" parent="re" vertex="1">
+          <mxGeometry y="172" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="re5" value="Pression atmosphérique (hPa)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" parent="re" vertex="1">
+          <mxGeometry y="204" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="re6" value="Vitesse du vent (km/h)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" parent="re" vertex="1">
+          <mxGeometry y="236" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="re7" value="Direction du vent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" parent="re" vertex="1">
+          <mxGeometry y="268" width="300" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="VqsAPmXIyb3bgkER9oUb-7" value="Effectuer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="510" y="328" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VqsAPmXIyb3bgkER9oUb-9" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="st3" target="VqsAPmXIyb3bgkER9oUb-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="350" as="sourcePoint" />
+            <mxPoint x="540" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqsAPmXIyb3bgkER9oUb-11" value="0,N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VqsAPmXIyb3bgkER9oUb-9">
+          <mxGeometry x="-0.0767" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqsAPmXIyb3bgkER9oUb-10" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="VqsAPmXIyb3bgkER9oUb-7" target="re3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="330" as="sourcePoint" />
+            <mxPoint x="690" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqsAPmXIyb3bgkER9oUb-12" value="1,1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VqsAPmXIyb3bgkER9oUb-10">
+          <mxGeometry x="-0.0433" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MLD" name="MLD">
+    <mxGraphModel grid="1" gridSize="10" page="1" pageWidth="1169" pageHeight="827">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="API de relevés météo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=32;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="65" width="800" height="42" />
+        </mxCell>
+        <mxCell id="subtitle" value="Modèle logique de données" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="115" width="800" height="35" />
+        </mxCell>
+        <mxCell id="st" value="station" style="swimlane;startSize=44;horizontal=1;collapsible=0;fillColor=#dcece8;swimlaneFillColor=#ffffff;strokeColor=#405f62;fontStyle=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="210" width="300" height="236" />
+        </mxCell>
+        <mxCell id="st0" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" vertex="1" parent="st">
+          <mxGeometry as="geometry" x="0" y="44" width="300" height="32" />
+        </mxCell>
+        <mxCell id="stkey0" value="PK" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#176458;" vertex="1" parent="st">
+          <mxGeometry as="geometry" x="246" y="44" width="50" height="32" />
+        </mxCell>
+        <mxCell id="st1" value="name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" vertex="1" parent="st">
+          <mxGeometry as="geometry" x="0" y="76" width="300" height="32" />
+        </mxCell>
+        <mxCell id="st2" value="location" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" vertex="1" parent="st">
+          <mxGeometry as="geometry" x="0" y="108" width="300" height="32" />
+        </mxCell>
+        <mxCell id="st3" value="altitude" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" vertex="1" parent="st">
+          <mxGeometry as="geometry" x="0" y="140" width="300" height="32" />
+        </mxCell>
+        <mxCell id="st4" value="latitude" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" vertex="1" parent="st">
+          <mxGeometry as="geometry" x="0" y="172" width="300" height="32" />
+        </mxCell>
+        <mxCell id="st5" value="longitude" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" vertex="1" parent="st">
+          <mxGeometry as="geometry" x="0" y="204" width="300" height="32" />
+        </mxCell>
+        <mxCell id="re" value="releve" style="swimlane;startSize=44;horizontal=1;collapsible=0;fillColor=#dcece8;swimlaneFillColor=#ffffff;strokeColor=#405f62;fontStyle=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="730" y="210" width="300" height="332" />
+        </mxCell>
+        <mxCell id="re0" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" vertex="1" parent="re">
+          <mxGeometry as="geometry" x="0" y="44" width="300" height="32" />
+        </mxCell>
+        <mxCell id="rekey0" value="PK" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#176458;" vertex="1" parent="re">
+          <mxGeometry as="geometry" x="246" y="44" width="50" height="32" />
+        </mxCell>
+        <mxCell id="re1" value="station_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" vertex="1" parent="re">
+          <mxGeometry as="geometry" x="0" y="76" width="300" height="32" />
+        </mxCell>
+        <mxCell id="rekey1" value="FK" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#176458;" vertex="1" parent="re">
+          <mxGeometry as="geometry" x="246" y="76" width="50" height="32" />
+        </mxCell>
+        <mxCell id="re2" value="date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" vertex="1" parent="re">
+          <mxGeometry as="geometry" x="0" y="108" width="300" height="32" />
+        </mxCell>
+        <mxCell id="re3" value="time" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" vertex="1" parent="re">
+          <mxGeometry as="geometry" x="0" y="140" width="300" height="32" />
+        </mxCell>
+        <mxCell id="re4" value="temperature" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" vertex="1" parent="re">
+          <mxGeometry as="geometry" x="0" y="172" width="300" height="32" />
+        </mxCell>
+        <mxCell id="re5" value="humidity" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" vertex="1" parent="re">
+          <mxGeometry as="geometry" x="0" y="204" width="300" height="32" />
+        </mxCell>
+        <mxCell id="re6" value="pressure" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" vertex="1" parent="re">
+          <mxGeometry as="geometry" x="0" y="236" width="300" height="32" />
+        </mxCell>
+        <mxCell id="re7" value="wind_speed" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" vertex="1" parent="re">
+          <mxGeometry as="geometry" x="0" y="268" width="300" height="32" />
+        </mxCell>
+        <mxCell id="re8" value="wind_direction" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=14;fontSize=15;" vertex="1" parent="re">
+          <mxGeometry as="geometry" x="0" y="300" width="300" height="32" />
+        </mxCell>
+        <mxCell id="fk" source="re1" target="st0" parent="1" edge="1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;fontSize=16;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;entryX=1;entryY=0.5;endArrow=open;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="note" value="PK = clé primaire. FK = clé étrangère. Chaque relevé référence une station existante." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="610" width="940" height="45" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
